@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Norse Bold;
+    src: url(fonts/norse-bold-webfont.woff);
+}
+html {
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-sidebar{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Norse Bold, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6em;
+    color: white;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black ;
+    opacity: 0.5;
+    width: 35vw;
+    margin-top: 250px;
+
+}
+
+.odin-picture {
+    height: 6em;
+    width: 6em;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.background-sidebar{
+    height: 100vh;
+    width: 35vw;
+    position: absolute;
+}
+
+header {
+    height: 30vh;
+    background-color: whitesmoke;
+}
+
+.header p:first-child{
+    margin-top: 10%;
+}
+
+.header>p {
+    font-size: 1.3em;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.header p:last-child{
+    margin-top: 15px;
+}
+
+.form {
+    height: 40vh;
+}
+
+.inputs {
+    margin-top: 25px;
+    margin-right: 20%;
+    margin-left: 10%;
+}
+
+.first-line,
+.second-line,
+.third-line{
+    display:flex;
+    gap: 40px;
+    margin-top: 35px;
+}
+
+
+input{
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    border: 2px grey solid;
+    outline: none;
+    margin-top: 5px;
+}
+
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 2em;
+    margin-left: 10%;
+    padding-top: 20px;
+}
+
+.button{
+    height: 30vh;
+    background-color: whitesmoke;
+}
+
+button {
+    background-color: #596D48;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.button p {
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus,
+input[type='tel']:focus {
+    border: blue 2px solid;
+    box-shadow: 0.5px 0.5px 5px blue;
+}
+
+/* input[type='text']:invalid,
+input[type='email']:invalid,
+input[type='tel']:invalid{
+    border: 2px solid #d55c5f;
+    color: #d55c5f;
+} */
